@@ -35,6 +35,8 @@ Trie-Based Dictionary Search
  │ Return known       │ Apply Spanish      │
  │ accented form      │ accentuation rules │
  └────────────────────┴────────────────────┘
+```
+
 
 ## Optional Claude Deep-Dive
 
