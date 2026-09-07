@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local Android configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Signing credentials
+*.jks
+*.keystore
+
+# Generated packages
+*.apk
+*.aab
+
+# Google / API configuration
+google-services.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

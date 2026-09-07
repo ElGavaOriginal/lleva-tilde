@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textTituloMiLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textTituloMiLista"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutSortControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        style="?android:attr/buttonBarButtonStyle">
+
+        <Button
+            android:id="@+id/buttonSortAZ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonSortAZ"
+            android:textStyle="bold"
+            android:layout_marginEnd="6dp"
+            android:textColor="@color/button_text_red"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonSortZA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonSortZA"
+            android:textStyle="bold"
+            android:textColor="@color/button_text_red"
+            android:layout_marginStart="6dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonSortDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonSortDate"
+            android:textStyle="bold"
+            android:textColor="@color/button_text_red"
+            android:layout_marginStart="6dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMiLista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutBottomButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="48dp"
+        style="?android:attr/buttonBarButtonStyle">
+
+        <Button
+            android:id="@+id/buttonBorrarTodo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonBorrarTodo"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="6dp"
+            android:textColor="@color/button_text_blue"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonCerrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonCerrar"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/button_text_blue"
+            android:layout_marginStart="6dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+</LinearLayout>

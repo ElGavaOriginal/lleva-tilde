@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        style="?android:attr/buttonBarStyle">
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textTitulo"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="26dp" />
+
+        <TextView
+            android:id="@+id/textAboutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAboutTitle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textAboutExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAboutExplanation"
+            android:textSize="18sp"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:id="@+id/textAboutDeveloperTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAboutDeveloperTitle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textAboutTheDeveloper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAboutTheDeveloper"
+            android:textSize="18sp"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginBottom="28dp"/>
+
+        <TextView
+            android:id="@+id/textVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textVersion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/buttonCerrarAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonCerrarAbout"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/button_text_blue"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+</ScrollView>

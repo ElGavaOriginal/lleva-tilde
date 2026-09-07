@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="48dp" >
+
+        <TextView
+            android:id="@+id/textReglasTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textReglasTitulo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/textReglasSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textReglasSubtitle"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Las Monosílabas -->
+        <TextView
+            android:id="@+id/textMonosilabasTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textMonosilabasTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textMonosilabasExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textMonosilabasExplanation"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Diacríticas -->
+        <TextView
+            android:id="@+id/textDiacríticasTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textDiacríticasExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textDiacríticasExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation2"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiacriticasExplanation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation3"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiacriticasExplanation4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation4"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiacriticasExplanation5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation5"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiacriticasExplanation6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiacriticasExplanation6"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Agudas -->
+        <TextView
+            android:id="@+id/textAgudasTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textAgudasExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textAgudasExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation2"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textAgudasExplanation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation3"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textAgudasExplanation4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation4"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textAgudasExplanation5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation5"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Graves -->
+        <TextView
+            android:id="@+id/textGravesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textGravesTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textGravesExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textGravesExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textGravesExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textGravesExplanation2"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textGravesExplanation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgudasExplanation3"
+            android:textSize="14sp"
+            android:paddingStart="12sp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textGravesExplanation4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textGravesExplanation4"
+            android:textSize="14sp"
+            android:paddingStart="12sp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textGravesExplanation5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textGravesExplanation5"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Esdrújulas -->
+        <TextView
+            android:id="@+id/textEsdrujulasTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Palabras Esdrújulas"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textEsdrujulasExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textEsdrujulasExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textEsdrujulasExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textEsdrujulasExplanation2"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sobresdrújulas -->
+        <TextView
+            android:id="@+id/textSobresdrujulasTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textSobresdrujulasTitle"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textSobresdrujulasExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textSobresdrujulasExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textSobresdrujulasExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textSobresdrujulasExplanation2"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Palabras con secuencias vocálicas -->
+        <TextView
+            android:id="@+id/textDiptongosTriptongosHiatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiptongosTriptongosHiatos"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textDiptongosTriptongosHiatosExplanation1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiptongosTriptongosHiatosExplanation1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textDiptongosTriptongosHiatosExplanation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiptongosTriptongosHiatosExplanation2"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiptongosTriptongosHiatosExplanation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiptongosTriptongosHiatosExplanation3"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textDiptongosTriptongosHiatosExplanation4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDiptongosTriptongosHiatosExplanation4"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:paddingEnd="10sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- La 'h' intercalada -->
+        <TextView
+            android:id="@+id/textHIntercaladaTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La 'h' intercalada"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textHIntercaladaExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textHIntercaladaExplanation"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botones al final -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:weightSum="2"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="48dp"
+            style="?android:attr/buttonBarStyle">
+
+            <Button
+                android:id="@+id/buttonVerRAE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="@string/buttonVerRAE"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/buttonCerrarLasReglas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/buttonCerrarLasReglas"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

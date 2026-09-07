@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="600dp"
+        android:padding="30dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/textTituloLlevaTilde"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textTituloLlevaTilde"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- PALABRA LABEL -->
+        <TextView
+            android:id="@+id/textLabelPalabra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/textLabelPalabra"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/textTituloLlevaTilde"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- PALABRA INPUT ROW -->
+        <LinearLayout
+            android:id="@+id/layoutInputPalabra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@id/textLabelPalabra"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <EditText
+                android:id="@+id/editTextPalabra"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/editTextPalabra"
+                android:inputType="textCapWords"
+                android:importantForAutofill="no" />
+
+            <ImageButton
+                android:id="@+id/buttonMic1"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/buttonMic1"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_btn_speak_now" />
+
+        </LinearLayout>
+
+        <!-- ORACION LABEL -->
+        <TextView
+            android:id="@+id/textLabelOracion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/textLabelOracion"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/layoutInputPalabra"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- ORACION INPUT ROW -->
+        <LinearLayout
+            android:id="@+id/layoutInputOracion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@id/textLabelOracion"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <EditText
+                android:id="@+id/editTextOracion"
+                android:layout_width="0dp"
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:gravity="top|start"
+                android:hint="@string/editTextOracion"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:importantForAutofill="no" />
+
+            <ImageButton
+                android:id="@+id/buttonMic2"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/buttonMic2"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_btn_speak_now" />
+
+        </LinearLayout>
+
+        <!-- TOP ACTION BUTTONS -->
+        <LinearLayout
+            android:id="@+id/layoutBuscarBorrar"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/layoutInputOracion"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/buttonBuscar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/buttonBuscar"
+                android:textColor="@color/button_text_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonDefinir"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="@string/buttonDefinir"
+                android:textColor="@color/button_text_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- RESULTADO LABEL -->
+        <TextView
+            android:id="@+id/textResultadoLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/textResultadoLabel"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/layoutBuscarBorrar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- RESULTADO DISPLAY -->
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:background="#EEEEEE"
+            android:padding="12dp"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintTop_toBottomOf="@id/textResultadoLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- BOTTOM BUTTONS: 2x2 grid -->
+        <GridLayout
+            android:id="@+id/gridBotones"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            style="?android:attr/buttonBarButtonStyle"
+            app:layout_constraintTop_toBottomOf="@id/textResultado"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/buttonDeepDive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:text="@string/buttonDeepDive"
+                android:textStyle="bold"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonAgregarMiLista"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:text="@string/buttonAgregarMiLista"
+                android:textStyle="bold"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonNuevaBusqueda"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="4dp"
+                android:textSize="16sp"
+                android:text="@string/buttonNuevaBusqueda"
+                android:textStyle="bold"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+            <Button
+                android:id="@+id/buttonSalirLlevaTilde"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="4dp"
+                android:textSize="16sp"
+                android:text="@string/buttonSalirLlevaTilde"
+                android:textStyle="bold"
+                android:textColor="@color/button_text_blue"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+        </GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

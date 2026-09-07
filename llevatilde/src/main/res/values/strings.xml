@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">LlevaTilde</string>
+    <string name="app_name_plural">LlevaTilde</string>
+
+    <!-- MainActivity Text and Buttons -->
+    <string name="buttonWidget">◫</string>
+    <string name="buttonInfo">Info</string>
+    <string name="textWelcomeBanner">Bienvenido a, ¿Lleva Tilde?</string>
+    <string name="textWelcomeSubtitle">Consulta si una palabra lleva tilde,\naprende por qué,\nbusca su definición,\ny crea una lista con las palabras consultadas.</string>
+    <string name="buttonLlevaTilde">¿Lleva Tilde?</string>
+    <string name="buttonMilista">Mi Lista</string>
+    <string name="buttonLasReglas">Las Reglas de la Acentuación</string>
+    <string name="buttonDefinicion">Buscar una Definición</string>
+    <string name="buttonSalir">Salir</string>
+
+    <!-- InstallWidget Text and Button -->
+    <string name="textWidgetTitulo">🚧   En construcción   🚧</string>
+    <string name="textWidgetExplanation1">Podrás instalar el widget de ¿Lleva Tilde? en tu pantalla principal, y tendrás las siguientes funciones disponibles:</string>
+    <string name="textWidgetExplanation2">• acceso rápido a la búsqueda\n• abrir la app desde el inicio\n• consultar una palabra desde la pantalla principal</string>
+    <string name="textWidgetExplanation3">Estará disponible en la versión 1.1</string>
+    <string name="textWidgetExplanation4"> 👷   ⚠️   🛠 ️</string>
+    <string name="buttonCerrarWidgetInstall">Cerrar</string>
+
+    <!-- About Text and Button -->
+    <string name="textTitulo">¿Lleva Tilde?</string>
+    <string name="textAboutTitle">About the App:</string>
+    <string name="textAboutExplanation">The app determines whether a word in Spanish requires an accent mark, or not, based on syllable analysis, tonic syllable placement, and the rules of accentuation in Spanish.   The Reglas section includes the current rules for accentuation as found in RAE.es.</string>
+    <string name="textAboutDeveloperTitle">About the Developer:</string>
+    <string name="textAboutTheDeveloper">This app was developed by Ruben Salido as part of CS5520 at Northeastern University\'s Khoury College of Computer Science.</string>
+    <string name="textVersion">Version 1.0</string>
+    <string name="buttonCerrarAbout">Return</string>
+
+    <!-- ¿Lleva Tilde? Text and Buttons -->
+    <string name="textTituloLlevaTilde">¿Lleva Tilde?</string>
+    <string name="textLabelPalabra">Palabra en duda:</string>
+    <string name="editTextPalabra">Ejemplo: cafe</string>
+    <string name="buttonMic1">Di la palabra para escribirla</string>
+    <string name="textLabelOracion">Oración completa (opcional):</string>
+    <string name="editTextOracion">Ejemplo: Me gusta el cafe.</string>
+    <string name="buttonBuscar">¿Lleva Tilde?</string>
+    <string name="buttonDefinir">Definición</string>
+    <string name="buttonMic2">Di la oración para escribirla</string>
+    <string name="textResultadoLabel">Resultado</string>
+    <string name="buttonDeepDive">Más Detalles</string>
+    <string name="buttonAgregarMiLista">+ Mi Lista</string>
+    <string name="buttonNuevaBusqueda">Nueva Búsqueda</string>
+    <string name="buttonSalirLlevaTilde">Cerrar</string>
+
+    <!-- Mi Lista Text and Buttons -->
+    <string name="textTituloMiLista">Mi Lista</string>
+    <string name="buttonSortAZ">A-Z</string>
+    <string name="buttonSortZA">Z-A</string>
+    <string name="buttonSortDate">Reciente</string>
+    <string name="buttonBorrarTodo">Borrar Lista</string>
+    <string name="buttonCerrar">Cerrar</string>
+
+    <!-- Las Reglas Text and Buttons -->
+    <string name="textReglasTitulo">Las Reglas de la Acentuación</string>
+    <string name="textReglasSubtitle">** Estas reglas de la acentuación están basadas en las normas publicadas por la Real Academia Española: rae.es **</string>
+    <string name="textMonosilabasTitle">Palabras Monosílabas</string>
+    <string name="textMonosilabasExplanation">Las palabras de una sola sílaba no se acentúan en español, con excepción de las que llevan tilde diacrítica (→ La tilde diacrítica en palabras monosílabas): bien, con, di, dio, fue, fui, mes, sal, tan, ti, vio.</string>
+    <string name="textDiacriticasTitle">Palabras Diacríticas</string>
+    <string name="textDiacriticasExplanation1">La tilde diacrítica permite distinguir palabras que se escriben igual pero tienen distinto significado o función gramatical:</string>
+    <string name="textDiacriticasExplanation2">• tú (pronombre) / tu (posesivo)</string>
+    <string name="textDiacriticasExplanation3">• él (pronombre) / el (artículo)</string>
+    <string name="textDiacriticasExplanation4">• sí (afirmación/pronombre) / si (conjunción)</string>
+    <string name="textDiacriticasExplanation5">• más (cantidad) / mas (pero)</string>
+    <string name="textDiacriticasExplanation6">• té (bebida) / te (pronombre)</string>
+    <string name="textAgudasTitle">Palabras Agudas</string>
+    <string name="textAgudasExplanation1">Las palabras agudas llevan tilde cuando terminan en las vocales a, e, i, o, u, o en n o s no precedidas de otra consonante: acá, comité, colibrí, magrebí, revisó, iglú, razón, compás.</string>
+    <string name="textAgudasExplanation2">No llevan tilde en los siguientes casos:</string>
+    <string name="textAgudasExplanation3">• Cuando terminan en consonante distinta de n o s: actriz, amistad, escribir, relax, reloj, trigal.</string>
+    <string name="textAgudasExplanation4">• Cuando terminan en más de una consonante: esnobs, mamuts, minigolf, roquefort, zigzags.</string>
+    <string name="textAgudasExplanation5">• Cuando terminan en y: convoy, guirigay, virrey.</string>
+    <string name="textGravesTitle">Palabras Graves (llanas)</string>
+    <string name="textGravesExplanation1">Las palabras llanas se escriben con tilde en los siguientes casos:</string>
+    <string name="textGravesExplanation2">• Cuando terminan en consonante distinta de n o s: dólar, lápiz, referéndum, Tíbet, tórax, túnel.</string>
+    <string name="textGravesExplanation3">• Cuando terminan en más de una consonante: bíceps, cíborg, clárens, fórceps, récords, wéstern.</string>
+    <string name="textGravesExplanation4">• Cuando terminan en y: yóquey, yérsey.</string>
+    <string name="textGravesExplanation5">No llevan tilde cuando terminan en n o s no precedidas de otra consonante, o en vocal: margen, crisis, lata, parque, bici, libro, tribu.</string>
+    <string name="textEsdrujulasTitle">Palabras Esdrújulas</string>
+    <string name="textEsdrujulasExplanation1">Las palabras esdrújulas se escriben siempre con tilde: análisis, cóselo, hábitat, rápido, recítenoslo, llévesemelas.</string>
+    <string name="textEsdrujulasExplanation2">El cambio de singular a plural puede modificar la posición del acento prosódico. Así, palabras como examen, imagen, joven, margen u origen no llevan tilde por ser llanas acabadas en n. Sí la llevan, en cambio, sus plurales, por ser esdrújulas: exámenes, imágenes, jóvenes, márgenes, orígenes.</string>
+    <string name="textSobresdrujulasTitle">Palabras Sobresdrújulas</string>
+    <string name="textSobresdrujulasExplanation1">Las palabras sobresdrújulas son aquellas cuyo acento recae en la antepenúltima sílaba o antes. Se escriben siempre con tilde: dígamelo, llévesemelas, recítenoslo, explícaselo.</string>
+    <string name="textSobresdrujulasExplanation2">Se forman generalmente al añadir dos o más pronombres átonos a una forma verbal.</string>
+    <string name="textDiptongosTriptongosHiatos">Palabras con diptongos, triptongos, e hiatos</string>
+    <string name="textDiptongosTriptongosHiatosExplanation1">La mayor parte de las sílabas en español contienen una sola vocal. Sin embargo, algunas incluyen secuencias de dos y hasta tres vocales. Las secuencias vocálicas son de tres tipos:</string>
+    <string name="textDiptongosTriptongosHiatosExplanation2">• Diptongo. Secuencia de dos vocales que pertenecen a la misma sílaba: au.la, es.toy, deu.da, vier.nes.</string>
+    <string name="textDiptongosTriptongosHiatosExplanation3">• Triptongo. Secuencia de tres vocales que pertenecen a la misma sílaba: buey, cam.biáis, miau.</string>
+    <string name="textDiptongosTriptongosHiatosExplanation4">• Hiato. Secuencia de dos vocales que pertenecen a sílabas distintas: fe.o, ha.bí.a, o.í.do, pun.tú.a.</string>
+    <string name="textHIntercaladaTitulo">La \'h\' intercalada</string>
+    <string name="textHIntercaladaExplanation">La h intercalada no influye en que sean diptongos o hiatos las secuencias de vocales entre las que se sitúa. Así, contienen diptongo palabras como de.sahu.cio, prohi.bir o ahi.ja.do, mientras que hay hiato en pro.hí.bo, a.za.har o ta.húr. Tampoco condiciona, por tanto, el uso de la tilde.</string>
+    <string name="buttonVerRAE">Ir a rae.es</string>
+    <string name="buttonCerrarLasReglas">Cerrar</string>
+
+    <!-- Definicion Text and Buttons -->
+    <string name="textTituloDefinicion">Buscar la Definición</string>
+    <string name="textInstruccionDefinicion">Escribe una palabra para obtener más detalles en Linguee.com:</string>
+    <string name="editTextPalabraDefinicion">Ejemplo: café</string>
+    <string name="buttonMic">Di la palabra para escribirla</string>
+    <string name="buttonBuscarLinguee">Buscar Linguee</string>
+    <string name="buttonCerrarDefinicion">Cerrar</string>
+
+    <!-- ItemPalabra Text -->
+    <string name="textPalabraItem">café</string>
+    <string name="textDetalleItem">Guardada recientemente</string>
+
+</resources>
