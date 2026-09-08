@@ -46,14 +46,14 @@ Claude is **not specifically used to determine whether a word requires an accent
 
 
 ## Technologies
-- Java
-- Android Studio
-- Android SDK
-- Gradle
-- JSON
-- Trie data structure
-- Speech-to-text
-- Rule-baed linguistic analysis
+- **Java**
+- **Android Studio**
+- **Android SDK**
+- **Gradle**
+- **JSON**
+- **Trie data structure**
+- **Speech-to-text**
+- **Rule-baed linguistic analysis**
 
 
 ## Project Structure 
@@ -63,13 +63,13 @@ The primary application logic is located under: llevatilde/src/main/java/
 The active Spanish lexicon is stored in: llevatilde/src/main/assets/diccionario_tilde_json.json
 
 ### Key components include:
-• AccentAnalyzer - applies Spanish accentuation analysis
-• PalabraTrie and TrieNode - implement Trie-based lexicon lookup
-• LexiconLoader - loadsthe application's Spanish lexicon
-• TextNormalizer - prepares user input for consistent lookup
-• SpeechHelper - handles speech-based input
-• ListaRepository - manages saved vocabulary
-• DeepDiveHelper - supposrt the optional external linguistic deep-dive feather
+- **AccentAnalyzer** - applies Spanish accentuation analysis
+- **PalabraTrie** and **TrieNode** - implement Trie-based lexicon lookup
+- **LexiconLoader** - loadsthe application's Spanish lexicon
+- **TextNormalizer** - prepares user input for consistent lookup
+- **SpeechHelper** - handles speech-based input
+- **ListaRepository** - manages saved vocabulary
+- **DeepDiveHelper** - supposrt the optional external linguistic deep-dive feather
 
 
 ## Screenshots
@@ -77,9 +77,9 @@ TO-DO: screenshots and demo video of the app wil be added here.
 
 ## Building the Project
 ### Requirements
-• Android Studio
-• JDK 21
-• Android SDK
+- **Android Studio**
+- **JDK 21**
+- **Android SDK**
 
 Clone the repository: git clone https://github.com/ElGavaOriginal/lleva-tilde.git
 
