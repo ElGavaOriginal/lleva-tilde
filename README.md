@@ -2,7 +2,7 @@
 
 **¿Lleva Tilde?** is a Spanish-language Android application designed to determine whether a Spanish word requires a written accent mark (*tilde*) over any of the vowels.
 
-The application combines a **Spanish lexicon, Trie-based dictionary lookup, text normalization, and rule-based accentuation analysis** to evaluate user input. It is designed both as a practical reference tool and as a language-learning application for Spanish learners and Spanish users.
+The application combines a **Spanish lexicon, Trie-based dictionary lookup, text normalization, and rule-based accentuation analysis** to evaluate user input. It is designed both as a practical reference tool and as a language-learning application for Spanish learners and speakers.
 
 ## Features
 
@@ -58,9 +58,9 @@ Claude is **not used to determine whether a word requires an accent mark**. The 
 
 ## Project Structure 
 
-The primary application logic is located under: llevatilde/src/main/java/
+The primary application logic is located under: `llevatilde/src/main/java/`
 
-The active Spanish lexicon is stored in: llevatilde/src/main/assets/diccionario_tilde_json.json
+The active Spanish lexicon is stored in: `llevatilde/src/main/assets/diccionario_tilde_json.json`
 
 ### Key components include:
 - **AccentAnalyzer** - applies Spanish accentuation analysis
@@ -81,16 +81,23 @@ TO-DO: screenshots and demo video of the app will be added here.
 - **JDK 21**
 - **Android SDK**
 
-Clone the repository: git clone https://github.com/ElGavaOriginal/lleva-tilde.git
+Clone the repository: 
+
+```bash
+git clone https://github.com/ElGavaOriginal/lleva-tilde.git
+```
 
 Open the project in Android Studio and allow Gradle to synchronize the required dependencies.
 
-For command line builds: ./gradlew :llevatilde:assembleDebug
- * A local local.properties file containing the Android SDK location may be required> This file is intentionally excluded from version control because it contains machine-specific configuration.
+For command line builds: 
+```bash
+./gradlew :llevatilde:assembleDebug
+```
+ * A local local.properties file containing the Android SDK location may be required. This file is intentionally excluded from version control because it contains machine-specific configuration.
 
 ## Academic Context
 
-¿Lleva Tilde? was originally developed for Northeastern University's Khoury College of Computer Science **CS5520: Mobile Application Development's** coursework. Subsequently it was prepared as a standalone portfolio project. 
+¿Lleva Tilde? was originally developed as coursework for **CS5520: Mobile Application Development** at Northeastern University's Khoury College of Computer Science. It was subsequently prepared as a standalone portfolio project. 
 
 The application reflects my broader interest in the intersection of **computer science, linguistics, and second-language learning technology**. 
 
