@@ -2,7 +2,7 @@
 
 **¿Lleva Tilde?** is a Spanish-language Android application designed to determine whether a Spanish word requires a written accent mark (*tilde*) over any of the vowels.
 
-The application combines a Spanish lexicon, Trie-based dictionary lookup, text normalization, and rule-based accentuation analysis to evaluate user input. It is designed both as a practical reference tool and as a language-learning application for Spanish learners and Spanish users.
+The application combines a **Spanish lexicon, Trie-based dictionary lookup, text normalization, and rule-based accentuation analysis** to evaluate user input. It is designed both as a practical reference tool and as a language-learning application for Spanish learners and Spanish users.
 
 ## Features
 
@@ -40,20 +40,20 @@ Trie-Based Dictionary Search
 
 ## Optional Claude Deep-Dive
 
-After evaluating a word, the applicationprovides an optional Deep Dive that launches a structured prompt in Claude for additional linguistic context, examples, and further research.
+After evaluating a word, the application provides an optional **Deep Dive** that launches a structured prompt in Claude for additional linguistic context, examples, and further research.
 
-Claude is not specifically used to determine whether a word requires an accent mark. The accent placement decision is made by the application's own dictionary, Trie lookup, and rule-based logic. 
+Claude is **not specifically used to determine whether a word requires an accent mark**. The accent placement decision is made by the application's own dictionary, Trie lookup, and rule-based logic. 
 
 
 ## Technologies
-• Java
-• Android Studio
-• Android SDK
-• Gradle
-• JSON
-• Trie data structure
-• Speech-to-text
-• Rule-baed linguistic analysis
+- Java
+- Android Studio
+- Android SDK
+- Gradle
+- JSON
+- Trie data structure
+- Speech-to-text
+- Rule-baed linguistic analysis
 
 
 ## Project Structure 
@@ -86,18 +86,18 @@ Clone the repository: git clone https://github.com/ElGavaOriginal/lleva-tilde.gi
 Open the project in Android Studio and allow Gradle to synchronize the required dependencies.
 
 For command line builds: ./gradlew :llevatilde:assembleDebug
- * A local local.propertis file containing the Android SDK location may be required> This file is intentionally excluded from version control because it contains machine-specific configuration.
+ * A local local.properties file containing the Android SDK location may be required> This file is intentionally excluded from version control because it contains machine-specific configuration.
 
 ## Academic Context
 
-¿Lleva Tilde? was originally developed for Northeastern University's Khoury College of Computer Science CS5520: Mobile Application Development's coursework. Subsequently it was preparedd as a standalone portfolio project. 
+¿Lleva Tilde? was originally developed for Northeastern University's Khoury College of Computer Science **CS5520: Mobile Application Development's** coursework. Subsequently it was prepared as a standalone portfolio project. 
 
-The applciation reflects my broader interst in the intersection of computer science, linguistics, and second-language learning technology. 
+The applciation reflects my broader interest in the intersection of **computer science, linguistics, and second-language learning technology**. 
 
 ## Linguist Reference
 
-The application's discussion of Spansih accentuation rules is based on conventions published by the Real Academia Española (RAE).
+The application's discussion of Spansih accentuation rules is based on conventions published by the **Real Academia Española (RAE)**.
 
 _______________________________________________________________________________________________
 
-Developed by Ruben Salido
+# Developed by Ruben Salido
