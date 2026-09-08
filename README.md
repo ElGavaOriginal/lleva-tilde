@@ -42,7 +42,7 @@ Trie-Based Dictionary Search
 
 After evaluating a word, the application provides an optional **Deep Dive** that launches a structured prompt in Claude for additional linguistic context, examples, and further research.
 
-Claude is **not specifically used to determine whether a word requires an accent mark**. The accent placement decision is made by the application's own dictionary, Trie lookup, and rule-based logic. 
+Claude is **not used to determine whether a word requires an accent mark**. The accent placement decision is made by the application's own dictionary, Trie lookup, and rule-based logic. 
 
 
 ## Technologies
