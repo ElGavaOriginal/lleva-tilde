@@ -53,7 +53,7 @@ Claude is **not specifically used to determine whether a word requires an accent
 - **JSON**
 - **Trie data structure**
 - **Speech-to-text**
-- **Rule-baed linguistic analysis**
+- **Rule-based linguistic analysis**
 
 
 ## Project Structure 
@@ -65,15 +65,15 @@ The active Spanish lexicon is stored in: llevatilde/src/main/assets/diccionario_
 ### Key components include:
 - **AccentAnalyzer** - applies Spanish accentuation analysis
 - **PalabraTrie** and **TrieNode** - implement Trie-based lexicon lookup
-- **LexiconLoader** - loadsthe application's Spanish lexicon
+- **LexiconLoader** - loads the application's Spanish lexicon
 - **TextNormalizer** - prepares user input for consistent lookup
 - **SpeechHelper** - handles speech-based input
 - **ListaRepository** - manages saved vocabulary
-- **DeepDiveHelper** - supposrt the optional external linguistic deep-dive feather
+- **DeepDiveHelper** - supports the optional external linguistic deep-dive feature
 
 
 ## Screenshots
-TO-DO: screenshots and demo video of the app wil be added here. 
+TO-DO: screenshots and demo video of the app will be added here. 
 
 ## Building the Project
 ### Requirements
@@ -92,12 +92,12 @@ For command line builds: ./gradlew :llevatilde:assembleDebug
 
 ¿Lleva Tilde? was originally developed for Northeastern University's Khoury College of Computer Science **CS5520: Mobile Application Development's** coursework. Subsequently it was prepared as a standalone portfolio project. 
 
-The applciation reflects my broader interest in the intersection of **computer science, linguistics, and second-language learning technology**. 
+The application reflects my broader interest in the intersection of **computer science, linguistics, and second-language learning technology**. 
 
-## Linguist Reference
+## Linguistic Reference
 
-The application's discussion of Spansih accentuation rules is based on conventions published by the **Real Academia Española (RAE)**.
+The application's discussion of Spanish accentuation rules is based on conventions published by the **Real Academia Española (RAE)**.
 
 _______________________________________________________________________________________________
 
-# Developed by Ruben Salido
+## Developed by Ruben Salido
